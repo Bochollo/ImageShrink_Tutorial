@@ -19,7 +19,7 @@ const slash = require("slash");
 const imageminMozjpeg = require("imagemin-mozjpeg");
 
 // FIXME: Set env
-// process.env.NODE_ENV = "development";
+//process.env.NODE_ENV = "development";
 process.env.NODE_ENV = "production";
 
 const isDev = process.env.NODE_ENV !== "production" ? true : false;
